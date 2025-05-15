@@ -1,0 +1,159 @@
+.meal-choices {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.meal-choices label,
+.meal-choices input {
+    margin: 10px;
+    border-radius: 10px;
+    border: 5px solid #481C0F;
+    display: flex;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    align-items: flex-end;
+    justify-content: center;
+    cursor: pointer;
+    width: 200px;
+    height: 120px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.meal-choices input[type="radio"] {
+    display: none;
+}
+
+.meal-choices label:hover {
+    font-weight: bold;
+}
+
+/** BREAKFAST **/
+.meal-choices label[for="breakfast"] {
+    background-image: url("../../../src/assets/images/pixelfood/friedegg.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: top;
+    background-color: #b9fbce;
+    box-shadow: 0 10px 0px #919b93;
+    position: relative;
+    top: 0px;
+}
+
+.meal-choices label[for="breakfast"]:hover {
+    background-color: #d4f9e0;
+    position: relative;
+    top: 0px;
+}
+
+.meal-choices input[id="breakfast"]:checked + label {
+    background-color: #7cf5a3;
+    box-shadow: 0 4px 0px #919b93;
+    top: 6px;
+}
+
+/** LUNCH **/
+.meal-choices label[for="lunch"] {
+    background-image: url("../../../src/assets/images/pixelfood/81_pizza.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: top;
+    background-color: #C5E0FF;
+    box-shadow: 0 10px 0px #919b93;
+    position: relative;
+    top: 0px;
+}
+
+.meal-choices label[for="lunch"]:hover {
+    background-color: #e4f0ff;
+    position: relative;
+    top: 0px;
+}
+
+.meal-choices input[id="lunch"]:checked + label {
+    background-color: #94c3f9;
+    box-shadow: 0 4px 0px #919b93;
+    top: 6px;
+}
+
+/** DINNER **/
+.meal-choices label[for="dinner"] {
+    background-image: url("../../../src/assets/images/pixelfood/95_steak.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: top;
+    background-color: #FFD5D4;
+    box-shadow: 0 10px 0px #919b93;
+    position: relative;
+    top: 0px;
+}
+
+.meal-choices label[for="dinner"]:hover {
+    background-color: #faeae9;
+    position: relative;
+    top: 0px;
+}
+
+.meal-choices input[id="dinner"]:checked + label {
+    background-color: #f9b0af;
+    box-shadow: 0 4px 0px #919b93;
+    top: 6px;
+}
+ 
+/** SNACK **/
+.meal-choices label[for="snack"] {
+    background-image: url("../../../src/assets/images/strawberry.png");
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: center 10px;
+    background-color: #ECFFC5;
+    box-shadow: 0 10px 0px #919b93;
+    position: relative;
+    top: 0px;
+}
+
+.meal-choices label[for="snack"]:hover {
+    background-color: #f6ffe3;
+    position: relative;
+    top: 0px;
+}
+
+.meal-choices input[id="snack"]:checked + label {
+    background-color: #e1ffa4;
+    box-shadow: 0 4px 0px #919b93;
+    top: 6px;
+}
+
+/** DESSERT **/
+.meal-choices label[for="dessert"] {
+    background-image: url("../../../src/assets/images/pixelfood/58_icecream_bowl.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: top;
+    background-color: #FFE2FD;
+    box-shadow: 0 10px 0px #919b93;
+    position: relative;
+    top: 0px;
+}
+
+.meal-choices label[for="dessert"]:hover {
+    background-color: #fff9ff;
+    position: relative;
+    top: 0px;
+}
+
+.meal-choices input[id="dessert"]:checked + label {
+    background-color: #f0b1ec;
+    box-shadow: 0 4px 0px #919b93;
+    top: 6px;
+}
+
+
+
+    

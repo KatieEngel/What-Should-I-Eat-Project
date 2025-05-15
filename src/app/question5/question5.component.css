@@ -1,0 +1,131 @@
+.time-choices {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.time-choices label,
+.time-choices input {
+    margin: 10px;
+    border-radius: 10px;
+    border: 5px solid #481C0F;
+    display: flex;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    align-items: flex-end;
+    justify-content: center;
+    cursor: pointer;
+    width: 220px;
+    height: 200px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.time-choices input[type="radio"] {
+    display: none;
+}
+
+.time-choices label:hover {
+    font-weight: bold;
+}
+
+/** 10-20 **/
+.time-choices label[for="10-20"] {
+    background-image: url("../../../src/assets/images/pixelfood/friedegg.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: top;
+    background-color: #f4c1fc;
+    box-shadow: 0 10px 0px #919b93;
+    position: relative;
+    top: 0px;
+}
+
+.time-choices label[for="10-20"]:hover {
+    background-color: #f6dff9;
+    position: relative;
+    top: 0px;
+}
+
+.time-choices input[id="10-20"]:checked + label {
+    background-color: #ee94fb;
+    box-shadow: 0 4px 0px #919b93;
+    top: 6px;
+}
+
+/** 20-30 **/
+.time-choices label[for="20-30"] {
+    background-image: url("../../../src/assets/images/pixelfood/81_pizza.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: top;
+    background-color: #f695fb;
+    box-shadow: 0 10px 0px #919b93;
+    position: relative;
+    top: 0px;
+}
+
+.time-choices label[for="20-30"]:hover {
+    background-color: #fbbefe;
+    position: relative;
+    top: 0px;
+}
+
+.time-choices input[id="20-30"]:checked + label {
+    background-color: #f26ff9;
+    box-shadow: 0 4px 0px #919b93;
+    top: 6px;
+}
+
+/** 30-40 **/
+.time-choices label[for="30-40"] {
+    background-image: url("../../../src/assets/images/pixelfood/friedegg.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: top;
+    background-color: #fd79f0;
+    box-shadow: 0 10px 0px #919b93;
+    position: relative;
+    top: 0px;
+}
+
+.time-choices label[for="30-40"]:hover {
+    background-color: #fd79f0;
+    position: relative;
+    top: 0px;
+}
+
+.time-choices input[id="30-40"]:checked + label {
+    background-color: #7cf5a3;
+    box-shadow: 0 4px 0px #919b93;
+    top: 6px;
+}
+
+/** 40 **/
+.time-choices label[for="40"] {
+    background-image: url("../../../src/assets/images/pixelfood/81_pizza.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: top;
+    background-color: #fd76c7;
+    box-shadow: 0 10px 0px #919b93;
+    position: relative;
+    top: 0px;
+}
+
+.time-choices label[for="40"]:hover {
+    background-color: #e4f0ff;
+    position: relative;
+    top: 0px;
+}
+
+.time-choices input[id="40"]:checked + label {
+    background-color: #94c3f9;
+    box-shadow: 0 4px 0px #919b93;
+    top: 6px;
+}

@@ -1,16 +1,14 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterOutlet, RouterModule} from '@angular/router';
+import { TitleScreenComponent } from './title-screen/title-screen.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, RouterModule],
   template: `
-    <h1>Welcome to {{title}}!</h1>
-
-    <router-outlet />
-  `,
-  styles: [],
+    <router-outlet></router-outlet>
+  `
 })
 export class AppComponent {
-  title = 'What-Should-I-Eat-Project';
+  title = 'What Should I Eat?';
 }

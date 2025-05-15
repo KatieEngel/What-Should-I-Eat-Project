@@ -1,0 +1,131 @@
+.craving-choices {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.craving-choices label,
+.craving-choices input {
+    margin: 10px;
+    border-radius: 10px;
+    border: 5px solid #481C0F;
+    display: flex;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    align-items: flex-end;
+    justify-content: center;
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.craving-choices input[type="checkbox"] {
+    display: none;
+}
+
+.craving-choices label:hover {
+    font-weight: bold;
+}
+
+/** SWEET **/
+.craving-choices label[for="sweet"] {
+    background-image: url("../../../src/assets/images/pixelfood/friedegg.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: top;
+    background-color: #fbbade;
+    box-shadow: 0 10px 0px #919b93;
+    position: relative;
+    top: 0px;
+}
+
+.craving-choices label[for="sweet"]:hover {
+    background-color: #fdd0e9;
+    position: relative;
+    top: 0px;
+}
+
+.craving-choices input[id="sweet"]:checked + label {
+    background-color: #f991ca;
+    box-shadow: 0 4px 0px #919b93;
+    top: 6px;
+}
+
+/** SALTY **/
+.craving-choices label[for="salty"] {
+    background-image: url("../../../src/assets/images/pixelfood/81_pizza.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: top;
+    background-color: #C5E0FF;
+    box-shadow: 0 10px 0px #919b93;
+    position: relative;
+    top: 0px;
+}
+
+.craving-choices label[for="salty"]:hover {
+    background-color: #e4f0ff;
+    position: relative;
+    top: 0px;
+}
+
+.craving-choices input[id="salty"]:checked + label {
+    background-color: #94c3f9;
+    box-shadow: 0 4px 0px #919b93;
+    top: 6px;
+}
+
+/** SAVORY **/
+.craving-choices label[for="savory"] {
+    background-image: url("../../../src/assets/images/pixelfood/friedegg.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: top;
+    background-color: #ffc191;
+    box-shadow: 0 10px 0px #919b93;
+    position: relative;
+    top: 0px;
+}
+
+.craving-choices label[for="savory"]:hover {
+    background-color: #ffd3b1;
+    position: relative;
+    top: 0px;
+}
+
+.craving-choices input[id="savory"]:checked + label {
+    background-color: #ffa967;
+    box-shadow: 0 4px 0px #919b93;
+    top: 6px;
+}
+
+/** SPICY **/
+.craving-choices label[for="spicy"] {
+    background-image: url("../../../src/assets/images/pixelfood/81_pizza.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: top;
+    background-color: #fdb7b7;
+    box-shadow: 0 10px 0px #919b93;
+    position: relative;
+    top: 0px;
+}
+
+.craving-choices label[for="spicy"]:hover {
+    background-color: #ffcccc;
+    position: relative;
+    top: 0px;
+}
+
+.craving-choices input[id="spicy"]:checked + label {
+    background-color: #ff9999;
+    box-shadow: 0 4px 0px #919b93;
+    top: 6px;
+}

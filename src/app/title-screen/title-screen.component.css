@@ -1,0 +1,28 @@
+h1 {
+    font-family: "Jersey 20", sans-serif;
+    color: #FFEDAD;
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: 8px 8px 0 #481C0F;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+button {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 80px;
+    color: #481C0F;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
