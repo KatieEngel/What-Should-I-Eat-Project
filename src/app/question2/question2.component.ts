@@ -16,7 +16,7 @@ import { ArrowsComponent } from '../arrows/arrows.component';
       <app-arrows></app-arrows>
     </main>
   `,
-  styleUrls: ['../../styles.css']
+  styleUrls: ['../../styles.css', 'question2.component.css']
 })
 export class Question2Component {
 

@@ -36,7 +36,7 @@
 
 /** SWEET **/
 .craving-choices label[for="sweet"] {
-    background-image: url("../../../src/assets/images/pixelfood/friedegg.png");
+    background-image: url("../../../src/assets/images/pixelfood/26_chocolate.png");
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: top;
@@ -60,7 +60,7 @@
 
 /** SALTY **/
 .craving-choices label[for="salty"] {
-    background-image: url("../../../src/assets/images/pixelfood/81_pizza.png");
+    background-image: url("../../../src/assets/images/pixelfood/13_bacon.png");
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: top;
@@ -84,7 +84,7 @@
 
 /** SAVORY **/
 .craving-choices label[for="savory"] {
-    background-image: url("../../../src/assets/images/pixelfood/friedegg.png");
+    background-image: url("../../../src/assets/images/pixelfood/15_burger.png");
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: top;
@@ -108,7 +108,7 @@
 
 /** SPICY **/
 .craving-choices label[for="spicy"] {
-    background-image: url("../../../src/assets/images/pixelfood/81_pizza.png");
+    background-image: url("../../../src/assets/images/pixelfood/87_ramen.png");
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: top;

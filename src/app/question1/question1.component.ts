@@ -18,7 +18,7 @@ import { ArrowsComponent } from "../arrows/arrows.component";
           <label for="lunch">LUNCH</label>
         <input type="radio" id="dinner" name="meal" />
           <label for="dinner">DINNER</label>
-          <input type="radio" id="snack" name="meal" />
+        <input type="radio" id="snack" name="meal" />
           <label for="snack">SNACK</label>
         <input type="radio" id="dessert" name="meal" />
           <label for="dessert">DESSERT</label>

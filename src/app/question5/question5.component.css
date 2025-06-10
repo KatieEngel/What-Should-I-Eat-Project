@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-around;
+    height: 480px;
 }
 
 .time-choices label,
